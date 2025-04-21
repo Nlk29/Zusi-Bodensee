@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Zusi>
+<Info DateiTyp="Fahrplan" Version="A.5" MinVersion="A.1"/>
+<Fahrplan AnfangsZeit="2025-04-16 12:00:00">
+<BefehlsKonfiguration Dateiname="signals\Deutschland\Befehle\408_2015.authority.xml"/>
+<LaPDF/>
+<StrebuPDF/>
+<ErsatzfahrplaenePDF/>
+<Begruessungsdatei/>
+<trn Gattung="TEST" Nummer="1" Zuglauf="Rheinbrücke(Modulgrenze) - Reichenau (Baden)" Prio="1500" Standortmodus="1" BremsstellungZug="5" MBrh="1.7" APBeschl="0.5" ReisendenDichte="0.6" FahrplanGruppe="Konstanz - Radolfzell" Rekursionstiefe="5" FahrstrName="Aufgleispunkt -&gt; Konstanz Petershausen F" Zugtyp="1" Buchfahrplandll="_InstSetup\lib\timetable\Buchfahrplan_0Debug.dll">
+<Datei Dateiname="Timetables\Deutschland\Bodensee\testfahrplan.fpn" NurInfo="1"/>
+<FahrplanEintrag Ank="2025-04-16 12:09:00" Abf="2025-04-16 12:10:00" Betrst="Konstanz Petershausen">
+<FahrplanSignalEintrag FahrplanSignal="F"/>
+</FahrplanEintrag>
+<FahrplanEintrag Ank="2025-04-16 12:10:00" Abf="2025-04-16 12:11:00" Betrst="Konstanz Petershausen">
+<FahrplanSignalEintrag FahrplanSignal="P 1"/>
+</FahrplanEintrag>
+<FahrplanEintrag Ank="2025-04-16 12:12:00" Abf="2025-04-16 12:13:00" Betrst="Konstanz Fürstenberg Hp"/>
+<FahrplanEintrag Ank="2025-04-16 12:14:00" Abf="2025-04-16 12:15:00" Betrst="Konstanz Wollmatingen Hp"/>
+<FahrplanEintrag Abf="2025-04-16 12:16:00" Betrst="Reichenau Baden">
+<FahrplanSignalEintrag FahrplanSignal="A"/>
+</FahrplanEintrag>
+<FahrplanEintrag Ank="2025-04-16 12:17:00" Abf="2025-04-16 12:18:00" Betrst="Reichenau Baden">
+<FahrplanSignalEintrag FahrplanSignal="B"/>
+</FahrplanEintrag>
+<FahrzeugVarianten Bezeichnung="default" ZufallsWert="1">
+<FahrzeugInfo IDHaupt="1" IDNeben="1" DotraModus="1" NVRNummer="628 543-1">
+<Datei Dateiname="RollingStock\Deutschland\Epoche4\Dieseltriebwagen\BRD\628_928\628_4.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="1" IDNeben="1" DotraModus="1" Gedreht="1" NVRNummer="928 543-8">
+<Datei Dateiname="RollingStock\Deutschland\Epoche4\Dieseltriebwagen\BRD\628_928\928_4.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="1" IDNeben="1" DotraModus="1" NVRNummer="628 543-1">
+<Datei Dateiname="RollingStock\Deutschland\Epoche4\Dieseltriebwagen\BRD\628_928\628_4.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="1" IDNeben="1" DotraModus="1" Gedreht="1" NVRNummer="928 543-8">
+<Datei Dateiname="RollingStock\Deutschland\Epoche4\Dieseltriebwagen\BRD\628_928\928_4.fzg"/>
+</FahrzeugInfo>
+</FahrzeugVarianten>
+</trn>
+<trn Gattung="TEST" Nummer="2" Zuglauf="Reichenau (Baden) - Konstanz-Petershausen" Prio="1500" Standortmodus="1" BremsstellungZug="5" MBrh="1.23" APBeschl="0.5" ReisendenDichte="0.6" FahrplanGruppe="Radolfzell - Konstanz" Rekursionstiefe="5" FahrstrName="Aufgleispunkt -&gt; Reichenau Baden D" Zugtyp="1" Buchfahrplandll="_InstSetup\lib\timetable\Buchfahrplan_0Debug.dll">
+<Datei Dateiname="Timetables\Deutschland\Bodensee\testfahrplan.fpn" NurInfo="1"/>
+<FahrplanEintrag Ank="2025-04-16 12:09:00" Abf="2025-04-16 12:10:00" Betrst="Reichenau Baden">
+<FahrplanSignalEintrag FahrplanSignal="D"/>
+</FahrplanEintrag>
+<FahrplanEintrag Ank="2025-04-16 12:11:00" Abf="2025-04-16 12:12:00" Betrst="Konstanz Wollmatingen Hp"/>
+<FahrplanEintrag Ank="2025-04-16 12:13:00" Abf="2025-04-16 12:14:00" Betrst="Konstanz Fürstenberg Hp"/>
+<FahrplanEintrag Abf="2025-04-16 12:15:00" Betrst="Konstanz Petershausen">
+<FahrplanSignalEintrag FahrplanSignal="A"/>
+</FahrplanEintrag>
+<FahrplanEintrag Ank="2025-04-16 12:16:00" Abf="2025-04-16 13:17:00" Betrst="Konstanz Petershausen">
+<FahrplanSignalEintrag FahrplanSignal="N 2"/>
+</FahrplanEintrag>
+<FahrzeugVarianten Bezeichnung="default" ZufallsWert="1">
+<FahrzeugInfo IDHaupt="1" IDNeben="1" SASchaltung="2" NVRNummer="E41 001">
+<Datei Dateiname="RollingStock\Deutschland\Epoche3\Elektroloks\BRD\Einheitsloks\E41.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="1" IDNeben="1" NVRNummer="51 80 31-11 481-3">
+<Datei Dateiname="RollingStock\Deutschland\Epoche3\Reisezugwagen\BRD\n_Wagen_Silberlinge\ABnb703.rv.fzg"/>
+</FahrzeugInfo>
+<FahrzeugInfo IDHaupt="1" IDNeben="1" NVRNummer="51 80 31-11 467-2">
+<Datei Dateiname="RollingStock\Deutschland\Epoche3\Reisezugwagen\BRD\n_Wagen_Silberlinge\ABnb703.rv.fzg"/>
+</FahrzeugInfo>
+</FahrzeugVarianten>
+</trn>
+<StrModul>
+<Datei Dateiname="routes\32T_0005_0053\000511_005281_Konstanz-Petershausen\Konstanz-Petershausen_1987.st3"/>
+<p/>
+<phi/>
+</StrModul>
+<UTM UTM_WE="511" UTM_NS="5281" UTM_Zone="32" UTM_Zone2="T"/>
+</Fahrplan>
+</Zusi>
