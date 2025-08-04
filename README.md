@@ -6,4 +6,5 @@ Zusi-Bodensee ist ein inoffizielles Streckennetz für den Zusi-Simulator mit fol
 - Konstanz-Petershausen 1987 (im Bau)
 - Allensbach 19xx (geplant)
 - Radolfzell 19xx (geplant)
-und potentiell weiteren Modulen in der Zukunft.
+  
+und potentiell weitere Module in der Zukunft.
